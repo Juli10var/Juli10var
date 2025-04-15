@@ -1,7 +1,7 @@
 echo "Bienvenido a la Calculadora, por favor ingrese los digitos"
 read -p "Ingresa el primer numero:" num1
 read -p "Ingresa el segundo numero:" num2
-        echo "Seleciones la operación de desea realizar"
+        echo "Seleciona la operación de desea realizar"
         echo "1) sumar"
         echo "2) restar"
         read -p "Opción: " opcion
