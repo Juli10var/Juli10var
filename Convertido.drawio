@@ -1,9 +1,39 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="26.2.14">
   <diagram name="Página-1" id="I6EdutbdW-N8aIaPNJ22">
-    <mxGraphModel>
+    <mxGraphModel dx="1585" dy="1057" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="N8jFgehfqLOCa9tS9N17-1" value="Inicio" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-325" y="-120" width="109" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="N8jFgehfqLOCa9tS9N17-5" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="N8jFgehfqLOCa9tS9N17-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-277" y="-87" as="sourcePoint" />
+            <mxPoint x="-276.5" y="-56" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="N8jFgehfqLOCa9tS9N17-6" value="$Ubicación" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="-326.5" y="29" width="100" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="N8jFgehfqLOCa9tS9N17-7" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="N8jFgehfqLOCa9tS9N17-10" target="N8jFgehfqLOCa9tS9N17-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-276.5" y="4" as="sourcePoint" />
+            <mxPoint x="-188" y="108" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="N8jFgehfqLOCa9tS9N17-8" value="seguro&lt;div&gt;si o no&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-326.5" y="106" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="N8jFgehfqLOCa9tS9N17-9" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="N8jFgehfqLOCa9tS9N17-6" target="N8jFgehfqLOCa9tS9N17-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="83" y="193" as="sourcePoint" />
+            <mxPoint x="133" y="143" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="N8jFgehfqLOCa9tS9N17-10" value="&lt;br&gt;&lt;font color=&quot;#121212&quot;&gt;&lt;span style=&quot;background-color: rgb(211, 213, 214);&quot;&gt;Ubicación de los&lt;/span&gt;&lt;/font&gt;&lt;div&gt;&lt;font color=&quot;#121212&quot;&gt;&lt;span style=&quot;background-color: rgb(211, 213, 214);&quot;&gt;elementos&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.16710526315789473;" vertex="1" parent="1">
+          <mxGeometry x="-347.75" y="-51" width="142.5" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
